@@ -4,7 +4,7 @@
 # import module / module.function(params) / import module as my_name / from <module> import <element>
 
 import math
-result = math.pow(9,2)
+result = math.pow(9, 2)
 print(result)
 print(math.pi)
 
