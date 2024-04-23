@@ -6,8 +6,10 @@
 def display_message_nop():
     print("This is a function")
 
+
 def display_message(msg):
     print(msg)
+
 
 display_message_nop()
 display_message(2)
