@@ -9,9 +9,11 @@
 # returns the number in the position specified by n
 # zero indexed
 def fibonacci(n):
+    print(f"==== n is -> {n} =====")
     if n == 0 or n == 1:
         return n
     else:
+        print(f"=== result -> {fibonacci(n - 1) + fibonacci(n - 2)}")
         return fibonacci(n - 1) + fibonacci(n - 2)
 
 
