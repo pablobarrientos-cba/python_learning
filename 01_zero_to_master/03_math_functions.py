@@ -15,3 +15,6 @@ print((20-17) + 8 ** 6)
 
 print(bin(7))
 print(hex(23))
+
+user_age = 18
+print(user_age)
