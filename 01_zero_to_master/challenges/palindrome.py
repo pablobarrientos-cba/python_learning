@@ -6,3 +6,4 @@ def is_palindrome(word):
 
 
 print(is_palindrome('Racecar'))
+print(is_palindrome('hello'))
