@@ -1,3 +1,6 @@
+import anagram
+
+
 def is_palindrome(word):
     list1 = list(word.lower())
     list2 = list(word.lower())
@@ -7,3 +10,4 @@ def is_palindrome(word):
 
 print(is_palindrome('Racecar'))
 print(is_palindrome('hello'))
+print(anagram.are_anagrams('argentino', 'ignorante'))
