@@ -11,4 +11,5 @@ print(walrus)
 
 age = 36
 txt = "My name is John, and I am {}"
+print(f'Hello John, so you are {age}')
 print(txt.format(age))
