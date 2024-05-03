@@ -16,12 +16,22 @@ class Person:
     def feed():
         print(f'Feed')
 
+    def return_self(self):
+        return self
+
 
 paul = Person('Paul', 47)
+
+# how self works
+print(paul)
+print(paul.return_self())
+
+# instance methods
 paul.say_hello()
 paul.need_sleep(5)
 paul.feed()
 
+# class methods
 # not possible Person.say_hello()
 Person.need_sleep(5)
 Person.feed()
