@@ -14,7 +14,7 @@ class Person:
 
     @staticmethod
     def feed():
-        print(f'Feed')
+        print(f' Feed: No access to attributes (neither class nor instance ones)')
 
     def return_self(self):
         return self
