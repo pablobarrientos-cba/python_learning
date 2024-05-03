@@ -9,7 +9,8 @@ new_list[0] = 'z'
 print(new_list)  # z, b, c
 
 my_list = [1, 2, 3]
-bonus = my_list + [5]  # creates a new list for the sum, it does not touch the original one
+# creates a new list for the sum, it does not touch the original one
+bonus = my_list + [5]
 my_list[0] = 'z'
 print(my_list)  # z, 2, 3
 print(bonus)  # 1, 2, 3, 5
