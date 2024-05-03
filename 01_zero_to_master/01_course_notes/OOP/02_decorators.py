@@ -1,7 +1,7 @@
 class Person:
     species = 'human'  # class attribute
 
-    def __init__(self, name, age):
+    def __init__(self, name, age):  # init method or constructor method
         self.name = name
         self.age = age
 
